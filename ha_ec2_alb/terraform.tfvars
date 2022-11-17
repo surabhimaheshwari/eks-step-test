@@ -1,0 +1,20 @@
+alb_dns_cname                  = ["CNAME"]
+ami_id                         = "ami-017fecd1353bcc96e"
+applicaton_health_check_target = "/"
+applicaton_name                = "otapp"
+applicaton_port                = 80
+instance_availability_zone     = ["us-west-2"]
+instance_key_name              = "oregon"
+instance_subnets               = ["subnet-06e41801e9618a572", "subnet-020af10ef815e5c07"]
+instance_type                  = "t2.micro"
+listener_arn                   = "aws_lb_listener.otapplistener.arn"
+listener_rule_condition        = "host_header"
+listener_rule_condition_values = ["otapp.uat.xyz.com"]
+priority                       = "98"
+route53_name                   = "otapp.uat.xyz.com"
+route53_zone_id                = "Z2SMIZHC4PCJX4"
+security_groups                = ["sg-02b42751eab13f53a", "sg-0a80c39996b1d8abc"]
+ttl                            = 60
+volume_size                    = "100"
+vpc_id                         = "vpc-04d796513538107d5"
+
