@@ -1,4 +1,4 @@
-alb_certificate_arn  = "ACM certificate arn"
+alb_certificate_arn  = null
 alb_name             = "test-alb"
 avaialability_zones  = ["ap-south-1a", "ap-south-1b"]
 igw_name             = "test-igw"
