@@ -1,6 +1,6 @@
 alb_certificate_arn  = null
 alb_name             = "test-alb"
-avaialability_zones  = ["ap-south-1a", "ap-south-1b"]
+avaialability_zones  = ["us-west-2a", "us-west-2b"]
 igw_name             = "test-igw"
 logs_bucket          = "ns-alb-logs"
 logs_bucket_arn      = "logs-bucket-arn"
