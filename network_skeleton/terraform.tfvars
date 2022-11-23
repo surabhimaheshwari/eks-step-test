@@ -1,10 +1,10 @@
 alb_certificate_arn  = "ACM certificate arn"
-alb_name             = "test_alb"
+alb_name             = "test-alb"
 avaialability_zones  = ["ap-south-1a", "ap-south-1b"]
-igw_name             = "test_igw"
+igw_name             = "test-igw"
 logs_bucket          = "ns-alb-logs"
-logs_bucket_arn      = "logs_bucket_arn"
-nat_name             = "test_nat"
+logs_bucket_arn      = "logs-bucket-arn"
+nat_name             = "test-nat"
 private_subnets_cidr = ["10.0.64.0/18", "10.0.128.0/17"]
 pub_rt_name          = "pub-rt"
 pub_subnet_name      = "public-subnet"
